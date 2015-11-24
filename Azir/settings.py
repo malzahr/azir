@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'Azir.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Azir',
+        'NAME': 'azir',
         'HOST': '127.0.0.1',
         'USER': 'root',
-        'PASSWORD': 'guotianzuo@ricebook',
-        'PORT': 4000,
+        'PASSWORD': '',
+        'PORT': 3306,
     }
 }
 
@@ -90,9 +90,9 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
